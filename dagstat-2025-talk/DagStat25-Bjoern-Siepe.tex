@@ -215,17 +215,19 @@
     
     \begin{block}{}
       \begin{columns}
-      \begin{column}{0.5\textwidth}
+      \begin{column}{0.65\textwidth}
       \pause
         \begin{itemize}
           \item Over-Optimism \citep[e.g.,][]{Ullmann2022}
           \pause
+          \item Issues similar to other empirical research \citep{Boulesteix2020}
+          \pause
           \item Insufficient reporting standards \citep[e.g.,][]{Hoaglin1975}
           \pause
-          \item Little assessment of reproducibility \citep[e.g.,][]{Luijken2023}
+          \item Reproducibility? \citep[e.g.,][]{Luijken2023}
         \end{itemize}
       \end{column}
-      \begin{column}{0.5\textwidth}
+      \begin{column}{0.35\textwidth}
       \pause
         \centering
         \includegraphics[width=0.35\textwidth]{pics/questionXKCD.png}
@@ -466,71 +468,81 @@
 \end{frame}
 
 
+
+
 \begin{frame}{Main Results}
 \pause
+% set absolute position of pdf graphic
+   \includegraphics{pics/fig1_part1.pdf}
+\end{frame}
+
+
+
+\begin{frame}{Main Results}
    \includegraphics{pics/review-results.pdf}
 \end{frame}
 
 
-% \begin{frame}{Simulation study protocols}
-%   \begin{block}{}
-%     \centering
-%     \includegraphics[width = 0.8\linewidth,frame]{pics/burton.png}
-%     \nocite{Burton2006}
-% 
-%   \end{block}
-%   \begin{block}{}
-%     \begin{tcolorbox}[colframe=chineseBlue]
-%       ``\emph{\alert{\textbf{When planning}} a simulation study, it is
-%         \alert{\textbf{recommended that a detailed protocol be produced}},
-%         giving full details of how the study will be performed, analysed and
-%         reported.}''
-%     \end{tcolorbox}
-%   \end{block}
-% 
-%   \vfill
-%   % \flushleft {\tiny \color{gray} \href{https://doi.org/10.1002/sim.2673}{doi.org/10.1002/sim.2673}}
-% 
-% \end{frame}
+\begin{frame}{Simulation study protocols}
+  \begin{block}{}
+    \pause
+    \centering
+    \includegraphics[width = 0.8\linewidth,frame]{pics/burton.png}
+    \nocite{Burton2006}
 
-% \begin{frame}{Simulation study protocols}
-%   \begin{columns}
-%     \begin{column}{0.5\textwidth}
-%       \begin{block}{Advantages}
-%         \begin{itemize}
-%         \pause
-%           \item[+] Planning and reporting
-%           \pause
-%           \item[+] Transparency and replicability
-%           \pause
-%           \item[+] Can be preregistered
-%           \pause
-%           \item[?] Less/more work
-%         \end{itemize}
-%       \end{block}
-% 
-%       \begin{block}{}
-%         \begin{itemize}
-%           \item[$\rightarrow$] \alert{\textbf{How to structure protocol?}}
-%         \end{itemize}
-%       \end{block}
-% 
-%     \end{column}
-%     \begin{column}{0.5\textwidth}
-%       \begin{block}{}
-%       \centering
-%       \includegraphics[width=0.7\textwidth]{pics/burtonprotocol.png} \\
-%       Proposal from \citet{Burton2006}
-%       \end{block}
-%     \end{column}
-%   \end{columns}
-% 
-%  \end{frame}
+  \end{block}
+  \begin{block}{}
+    \begin{tcolorbox}[colframe=chineseBlue]
+      ``\emph{\alert{\textbf{When planning}} a simulation study, it is
+        \alert{\textbf{recommended that a detailed protocol be produced}},
+        giving full details of how the study will be performed, analysed and
+        reported.}''
+    \end{tcolorbox}
+  \end{block}
+
+  \vfill
+  % \flushleft {\tiny \color{gray} \href{https://doi.org/10.1002/sim.2673}{doi.org/10.1002/sim.2673}}
+
+\end{frame}
+
+\begin{frame}{Simulation study protocols}
+  \begin{columns}
+    \begin{column}{0.5\textwidth}
+      \begin{block}{Advantages}
+        \begin{itemize}
+        \pause
+          \item[+] Planning and reporting
+          \pause
+          \item[+] Transparency and replicability
+          \pause
+          \item[+] Can be preregistered
+          \pause
+          \item[?] Less/more work
+        \end{itemize}
+      \end{block}
+
+      \begin{block}{}
+        \begin{itemize}
+          \item[$\rightarrow$] \alert{\textbf{How to structure protocol?}}
+        \end{itemize}
+      \end{block}
+
+    \end{column}
+    \begin{column}{0.5\textwidth}
+      \begin{block}{}
+      \centering
+      \includegraphics[width=0.7\textwidth]{pics/burtonprotocol.png} \\
+      Proposal from \citet{Burton2006}
+      \end{block}
+    \end{column}
+  \end{columns}
+
+ \end{frame}
 
 \begin{frame}{Towards improved reporting}
   \begin{block}{}
   \centering
-  \includegraphics[width = 0.6\linewidth,frame]{pics/ademprereg.png}
+  \includegraphics[width = 0.6\linewidth,frame,height=7em]{pics/ademprereg.png}
 
   \begin{itemize}
   \pause
@@ -600,13 +612,14 @@
   \begin{block}{Purposes}
     \begin{itemize}
       \pause
-      \item \alert{\textbf{Planning}} of simulation studies
+      \item Blueprint for \alert{\textbf{planning}}, \alert{\textbf{reporting}} \& \alert{\textbf{reviewing}}  of simulation studies
       \pause
-      \item \alert{\textbf{Preregistration}}
-      \pause
-      \item Blueprint for \alert{\textbf{reporting}}
-      \pause
-      \item \alert{\textbf{Reviewing}} of simulation studies
+      \item \alert{\textbf{Preregistration}} brings multiple benefits similar to other empirical research
+      \begin{itemize}
+      \item Avoid QRPs
+      \item Increase transparency
+      \item Improve informativeness
+      \end{itemize}
     \end{itemize}
   \end{block}
 
@@ -642,16 +655,29 @@
       \item Simulation studies can have \alert{\textbf{big impact}}, should be
             \alert{\textbf{conducted carefully}}
       \pause
-      \item \alert{\textbf{Protocols}} can make simulation studies
-            \alert{\textbf{more reliable}}
+      \item \alert{\textbf{Protocols}} can improve simulation studies
       \pause
       \item \alert{\textbf{ADEMP-PreReg template}} helps in preregistration,
-            planning, reporting, reviewing of simulation studies
+            planning, reporting \& reviewing
+      \pause
     \end{itemize}
   \end{block}
 
   {\tiny \color{gray} \href{https://doi.org/10.1037/met0000695}{https://doi.org/10.1037/met0000695}. Slides and manuscript at \href{https://bsiepe.github.io}{https://bsiepe.github.io}.}
 \end{frame}
+
+\begin{frame}
+Get in touch: 
+\begin{itemize}
+\item \faEnvelope \hspace{0.1em} \href{mailto:bjoern.siepe@uni-marburg.de)}{bjoern.siepe@uni-marburg.de}
+% add bluesky logo
+\item Bluesky: \hspace{0.1em} \href{https://bsky.app/profile/bsiepe.bsky.social}{bsiepe}
+\end{itemize}
+
+
+\includegraphics[width = 0.4\textwidth]{pics/dagstat_qr.png}
+\end{frame}
+
 
 \begin{frame}[allowframebreaks]{References}
 \scriptsize
