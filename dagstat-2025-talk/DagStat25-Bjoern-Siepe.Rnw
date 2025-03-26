@@ -14,6 +14,7 @@
 \usepackage[default]{sourcesanspro}
 \usepackage{tcolorbox}
 \usepackage{fontawesome} % fontawesome icons
+\usepackage{subcaption}
 \usepackage{tikz}
 \usepackage{svg}
 \usepackage{pdfpages}
@@ -95,6 +96,43 @@
 \begin{frame}[noframenumbering, plain]
   \titlepage
 \nocite{PawelKookReeve2023}
+\end{frame}
+
+\begin{frame}{A multidisciplinary collaboration}
+    \centering
+    \begin{figure}
+        \begin{subfigure}{0.27\textwidth}
+            \centering
+            \includegraphics[height=2.8cm,frame]{pics/bjoern_siepe.jpg}
+            \caption*{Björn S. Siepe}
+        \end{subfigure}
+        \begin{subfigure}{0.27\textwidth}
+            \centering
+            \includegraphics[height=2.8cm,frame]{pics/frantisek_bartos.jpeg}
+            \caption*{František Bartoš}
+        \end{subfigure}
+        \begin{subfigure}{0.27\textwidth}
+          \centering
+          \includegraphics[height=2.8cm,frame]{pics/daniel_heck.jpg}
+            \caption*{Daniel W. Heck}
+        \end{subfigure}
+
+        \begin{subfigure}{0.27\textwidth}
+            \centering
+            \includegraphics[height=2.8cm,frame]{pics/tim_morris.jpg}
+            \caption*{Tim P. Morris}
+        \end{subfigure}
+        \begin{subfigure}{0.27\textwidth}
+            \centering
+            \includegraphics[height=2.8cm,frame]{pics/al_boulesteix.jpeg}
+            \caption*{Anne-Laure Boulesteix}
+        \end{subfigure}
+        \begin{subfigure}{0.27\textwidth}
+            \centering
+            \includegraphics[height=2.8cm,frame]{pics/samuel_pawel.jpg}
+            \caption*{Samuel Pawel}
+        \end{subfigure}
+    \end{figure}
 \end{frame}
 
 
@@ -662,19 +700,34 @@
     \end{itemize}
   \end{block}
 
-  {\tiny \color{gray} \href{https://doi.org/10.1037/met0000695}{https://doi.org/10.1037/met0000695}. Slides and manuscript at \href{https://bsiepe.github.io}{https://bsiepe.github.io}.}
 \end{frame}
 
 \begin{frame}
 Get in touch: 
+\begin{columns}
+
+\begin{column}{0.5\textwidth}
 \begin{itemize}
 \item \faEnvelope \hspace{0.1em} \href{mailto:bjoern.siepe@uni-marburg.de)}{bjoern.siepe@uni-marburg.de}
 % add bluesky logo
 \item Bluesky: \hspace{0.1em} \href{https://bsky.app/profile/bsiepe.bsky.social}{bsiepe}
 \end{itemize}
+\end{column}
 
+\begin{column}{0.5\textwidth}
 
+\centering
+Paper \& Slides \\
 \includegraphics[width = 0.4\textwidth]{pics/dagstat_qr.png}
+
+\end{column}
+
+\end{columns}
+
+
+
+
+
 \end{frame}
 
 
